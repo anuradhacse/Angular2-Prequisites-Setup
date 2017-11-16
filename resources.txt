@@ -12,3 +12,5 @@ Installing AngularCli - Prerequisites
       sudo apt-add-repository "deb https://deb.nodesource.com/node_7.x $(lsb_release -sc) main"
       sudo apt-get update
       sudo apt-get install nodejs
+      
+ Link - https://askubuntu.com/questions/594656/how-to-install-the-latest-versions-of-nodejs-and-npm
