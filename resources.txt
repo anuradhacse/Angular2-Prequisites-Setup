@@ -1,0 +1,14 @@
+Installing AngularCli - Prerequisites
+    Installing nodejs and npm
+    Versions needed 
+      Nodejs - 6.9.0 or higher, 
+      NPM(node package manager)- 3 or higher.
+      
+    Uninstalling lower versions of npm and nodejs run following command.
+      sudo apt-get purge nodejs npm
+      
+    Installing Newer Versions of npm and nodejs
+      sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 68576280
+      sudo apt-add-repository "deb https://deb.nodesource.com/node_7.x $(lsb_release -sc) main"
+      sudo apt-get update
+      sudo apt-get install nodejs
